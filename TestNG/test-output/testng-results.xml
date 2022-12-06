@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-06T08:26:59 EST" name="Default suite" finished-at="2022-12-06T08:27:53 EST" duration-ms="54045">
+    <groups>
+      <group name="smoke">
+        <method signature="secondprogram.demo2()[pri:0, instance:testngPrograms.secondprogram@670002]" name="demo2" class="testngPrograms.secondprogram"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-12-06T08:26:59 EST" name="Default test" finished-at="2022-12-06T08:27:53 EST" duration-ms="54045">
+      <class name="testngPrograms.secondprogram">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:26:59 EST" name="setup" finished-at="2022-12-06T08:27:08 EST" duration-ms="8370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demo1()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:08 EST" name="demo1" finished-at="2022-12-06T08:27:10 EST" duration-ms="2287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method is-config="true" signature="example()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:10 EST" name="example" finished-at="2022-12-06T08:27:10 EST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:10 EST" name="setup" finished-at="2022-12-06T08:27:20 EST" duration-ms="9862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demo2()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:20 EST" name="demo2" finished-at="2022-12-06T08:27:22 EST" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method is-config="true" signature="example()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:22 EST" name="example" finished-at="2022-12-06T08:27:22 EST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:22 EST" name="setup" finished-at="2022-12-06T08:27:30 EST" duration-ms="7828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demo3()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:30 EST" name="demo3" finished-at="2022-12-06T08:27:33 EST" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method is-config="true" signature="example()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:33 EST" name="example" finished-at="2022-12-06T08:27:33 EST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:33 EST" name="setup" finished-at="2022-12-06T08:27:40 EST" duration-ms="7500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demo4()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:40 EST" name="demo4" finished-at="2022-12-06T08:27:43 EST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method is-config="true" signature="example()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:43 EST" name="example" finished-at="2022-12-06T08:27:43 EST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:43 EST" name="setup" finished-at="2022-12-06T08:27:50 EST" duration-ms="7673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demo5()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:50 EST" name="demo5" finished-at="2022-12-06T08:27:53 EST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+        <test-method is-config="true" signature="example()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:53 EST" name="example" finished-at="2022-12-06T08:27:53 EST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example -->
+      </class> <!-- testngPrograms.secondprogram -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
