@@ -28,14 +28,14 @@ public class TestngFirstProgram
 		String title = driver.getTitle();
 		System.out.println(title);
 	}
-	@Test (groups=("smoke"))
+	@Test
 	public void demoone()
 	{
 		driver.findElement(By.xpath("//a[@href='/register']")).click();
 		driver.findElement(By.xpath("//input[@id='gender-male']")).click();
 		//System.out.println("Apple");
 	}
-	@Test  (groups=("smoke"))
+	@Test  
 	public void demotwo()  
 	{
 		driver.findElement(By.xpath("//a[@href='/login']")).click();

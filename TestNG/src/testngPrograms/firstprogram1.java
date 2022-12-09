@@ -29,7 +29,7 @@ public class firstprogram1 // DemoWebShop web elements
 
     }
 
-    @Test (groups=("smoke"))
+    @Test
 
     public void demo2() throws InterruptedException
 

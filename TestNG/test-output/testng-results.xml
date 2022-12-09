@@ -2,75 +2,132 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-06T08:26:59 EST" name="Default suite" finished-at="2022-12-06T08:27:53 EST" duration-ms="54045">
+  <suite started-at="2022-12-08T23:37:50 EST" name="Default suite" finished-at="2022-12-08T23:38:19 EST" duration-ms="28628">
     <groups>
-      <group name="smoke">
-        <method signature="secondprogram.demo2()[pri:0, instance:testngPrograms.secondprogram@670002]" name="demo2" class="testngPrograms.secondprogram"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-12-06T08:26:59 EST" name="Default test" finished-at="2022-12-06T08:27:53 EST" duration-ms="54045">
-      <class name="testngPrograms.secondprogram">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:26:59 EST" name="setup" finished-at="2022-12-06T08:27:08 EST" duration-ms="8370" status="PASS">
+    <test started-at="2022-12-08T23:37:50 EST" name="Default test" finished-at="2022-12-08T23:38:19 EST" duration-ms="28628">
+      <class name="assignment2.demologin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:37:50 EST" name="setup" finished-at="2022-12-08T23:37:55 EST" duration-ms="4771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="demo1()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:08 EST" name="demo1" finished-at="2022-12-06T08:27:10 EST" duration-ms="2287" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:37:55 EST" name="test1" data-provider="logindata" finished-at="2022-12-08T23:37:56 EST" duration-ms="1262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satwik@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo1 -->
-        <test-method is-config="true" signature="example()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:10 EST" name="example" finished-at="2022-12-06T08:27:10 EST" duration-ms="189" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="endprogram()[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:37:56 EST" name="endprogram" finished-at="2022-12-08T23:37:57 EST" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- example -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:10 EST" name="setup" finished-at="2022-12-06T08:27:20 EST" duration-ms="9862" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="demo2()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:20 EST" name="demo2" finished-at="2022-12-06T08:27:22 EST" duration-ms="2330" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo2 -->
-        <test-method is-config="true" signature="example()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:22 EST" name="example" finished-at="2022-12-06T08:27:22 EST" duration-ms="176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- example -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:22 EST" name="setup" finished-at="2022-12-06T08:27:30 EST" duration-ms="7828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="demo3()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:30 EST" name="demo3" finished-at="2022-12-06T08:27:33 EST" duration-ms="2326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo3 -->
-        <test-method is-config="true" signature="example()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:33 EST" name="example" finished-at="2022-12-06T08:27:33 EST" duration-ms="176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- example -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:33 EST" name="setup" finished-at="2022-12-06T08:27:40 EST" duration-ms="7500" status="PASS">
+        </test-method> <!-- endprogram -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:37:57 EST" name="setup" finished-at="2022-12-08T23:38:00 EST" duration-ms="3882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="demo4()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:40 EST" name="demo4" finished-at="2022-12-06T08:27:43 EST" duration-ms="2369" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:00 EST" name="test1" data-provider="logindata" finished-at="2022-12-08T23:38:02 EST" duration-ms="1418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satwik1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo4 -->
-        <test-method is-config="true" signature="example()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:43 EST" name="example" finished-at="2022-12-06T08:27:43 EST" duration-ms="206" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="endprogram()[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:02 EST" name="endprogram" finished-at="2022-12-08T23:38:02 EST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- example -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:43 EST" name="setup" finished-at="2022-12-06T08:27:50 EST" duration-ms="7673" status="PASS">
+        </test-method> <!-- endprogram -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:02 EST" name="setup" finished-at="2022-12-08T23:38:06 EST" duration-ms="3802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="demo5()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:50 EST" name="demo5" finished-at="2022-12-06T08:27:53 EST" duration-ms="2433" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:06 EST" name="test1" data-provider="logindata" finished-at="2022-12-08T23:38:07 EST" duration-ms="1426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satwi2k@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo5 -->
-        <test-method is-config="true" signature="example()[pri:0, instance:testngPrograms.secondprogram@670002]" started-at="2022-12-06T08:27:53 EST" name="example" finished-at="2022-12-06T08:27:53 EST" duration-ms="258" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="endprogram()[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:07 EST" name="endprogram" finished-at="2022-12-08T23:38:07 EST" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- example -->
-      </class> <!-- testngPrograms.secondprogram -->
+        </test-method> <!-- endprogram -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:07 EST" name="setup" finished-at="2022-12-08T23:38:11 EST" duration-ms="4103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:11 EST" name="test1" data-provider="logindata" finished-at="2022-12-08T23:38:13 EST" duration-ms="1348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satwik3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="endprogram()[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:13 EST" name="endprogram" finished-at="2022-12-08T23:38:13 EST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endprogram -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:13 EST" name="setup" finished-at="2022-12-08T23:38:17 EST" duration-ms="4088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:17 EST" name="test1" data-provider="logindata" finished-at="2022-12-08T23:38:19 EST" duration-ms="1627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satwik.bag@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="endprogram()[pri:0, instance:assignment2.demologin@3cc2931c]" started-at="2022-12-08T23:38:19 EST" name="endprogram" finished-at="2022-12-08T23:38:19 EST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endprogram -->
+      </class> <!-- assignment2.demologin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

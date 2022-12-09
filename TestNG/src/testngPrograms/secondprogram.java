@@ -28,7 +28,7 @@ public class secondprogram  // Rahul Shetty practice page web elements
 
     }
 
-    @Test (groups=("smoke"))
+    @Test 
 
     public void demo2() throws InterruptedException
 
